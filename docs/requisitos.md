@@ -14,3 +14,17 @@
 | RF12 | El sistema mostrará métricas básicas en un dashboard.       |
 
 
+
+| ID    | Requisito no funcional                                                                  |
+| ----- | --------------------------------------------------------------------------------------- |
+| RNF01 | La interfaz deberá adaptarse a computadora y dispositivos móviles.                      |
+| RNF02 | Las contraseñas deberán almacenarse cifradas.                                           |
+| RNF03 | Las credenciales de la base de datos estarán en variables de entorno.                   |
+| RNF04 | El sistema deberá mostrar mensajes amigables cuando ocurra un error.                    |
+| RNF05 | El tiempo de respuesta de las operaciones principales deberá ser menor a tres segundos. |
+| RNF06 | La base de datos deberá conservar la información después de cerrar la aplicación.       |
+| RNF07 | El código deberá mantener separación entre rutas, controladores, modelos y vistas.      |
+| RNF08 | El sistema utilizará datos ficticios o anonimizados durante las pruebas.                |
+
+
+
