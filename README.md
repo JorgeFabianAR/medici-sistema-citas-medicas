@@ -54,3 +54,15 @@ Semana 4: Definición del experimento, planteamiento del problema, hipótesis ca
 ## Autor
 
 Proyecto Integrador Dual para la carrera de Ingeniería en Sistemas Computacionales.
+
+## Evidencia Semana 6
+
+Durante la Semana 6 se configuró el MVP esqueleto del sistema MediCI.
+
+Avances realizados:
+
+- Backend inicial con Node.js y Express.
+- Endpoint `/api/health` funcionando correctamente.
+- Frontend inicial con React.
+- Conexión entre frontend y backend.
+- Capturas de evidencia en la carpeta `docs/evidencias_semana6`.
