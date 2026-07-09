@@ -3,6 +3,9 @@ const cors = require('cors');
 require('dotenv').config();
 
 const pacientesRoutes = require('./routes/pacientesRoutes');
+const especialidadesRoutes = require('./routes/especialidadesRoutes');
+const medicosRoutes = require('./routes/medicosRoutes');
+const consultoriosRoutes = require('./routes/consultoriosRoutes');
 
 const app = express();
 
@@ -21,6 +24,9 @@ app.get('/api/health', (req, res) => {
 });
 
 app.use('/api/pacientes', pacientesRoutes);
+app.use('/api/especialidades', especialidadesRoutes);
+app.use('/api/medicos', medicosRoutes);
+app.use('/api/consultorios', consultoriosRoutes);
 
 const PORT = process.env.PORT || 3000;
 
