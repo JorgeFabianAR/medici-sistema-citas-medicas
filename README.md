@@ -66,3 +66,16 @@ Avances realizados:
 - Frontend inicial con React.
 - Conexión entre frontend y backend.
 - Capturas de evidencia en la carpeta `docs/evidencias_semana6`.
+## Avance Semana 7
+
+Durante la Semana 7 se atendió la retroalimentación recibida en la Bitácora 1, incorporando acciones de mejora relacionadas con referencias académicas, trazabilidad del repositorio y evidencia semanal de avance.
+
+También se inició el desarrollo funcional del backend mediante la creación del módulo de pacientes, incluyendo rutas y controladores iniciales para consultar y registrar pacientes de prueba.
+
+Avances realizados:
+
+- Atención documentada a retroalimentación de Bitácora 1.
+- Incorporación de referencias académicas indexadas.
+- Inicio del módulo funcional de pacientes.
+- Creación de rutas y controladores en backend.
+- Evidencia de endpoint `/api/pacientes`.
