@@ -79,3 +79,19 @@ Avances realizados:
 - Inicio del módulo funcional de pacientes.
 - Creación de rutas y controladores en backend.
 - Evidencia de endpoint `/api/pacientes`.
+
+
+## Avance Semana 9
+
+Durante la Semana 9 se desarrolló el módulo de citas médicas del sistema MediCI.
+
+Avances realizados:
+
+- Creación del controlador de citas.
+- Creación de rutas para consultar y registrar citas.
+- Validación de empalmes por médico y consultorio.
+- Sugerencia automática de horario disponible cuando existe conflicto.
+- Registro inicial de logs de citas.
+- Actualización del frontend con formulario de registro de citas.
+- Tabla de citas registradas.
+- Evidencias almacenadas en `docs/evidencias_semana9`.

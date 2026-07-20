@@ -6,6 +6,7 @@ const pacientesRoutes = require('./routes/pacientesRoutes');
 const especialidadesRoutes = require('./routes/especialidadesRoutes');
 const medicosRoutes = require('./routes/medicosRoutes');
 const consultoriosRoutes = require('./routes/consultoriosRoutes');
+const citasRoutes = require('./routes/citasRoutes');
 
 const app = express();
 
@@ -27,6 +28,7 @@ app.use('/api/pacientes', pacientesRoutes);
 app.use('/api/especialidades', especialidadesRoutes);
 app.use('/api/medicos', medicosRoutes);
 app.use('/api/consultorios', consultoriosRoutes);
+app.use('/api/citas', citasRoutes);
 
 const PORT = process.env.PORT || 3000;
 
